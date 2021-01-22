@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:padding="15dip"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.18"
+        android:paddingTop="30dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="50dp">
+
+            <Button
+                android:id="@+id/main_buttonMenu"
+                android:layout_width="123dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:background="@drawable/menu"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnArtikel"
+                android:layout_width="70dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:background="@drawable/artikel"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/Menu"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/Artikel"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="30dp">
+
+            <Button
+                android:id="@+id/btnCatatan"
+                android:layout_width="123dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:background="@drawable/catat"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnPengingat"
+                android:layout_width="110dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:background="@drawable/alarm"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/Catatan"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/alarm"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".ButtonMenu">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/main_buttonPil1"
+            android:layout_width="258dp"
+            android:layout_height="119dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10px"
+            android:layout_weight="0.35"
+            android:background="@drawable/btn_pil1" />
+
+        <Button
+            android:id="@+id/btnPil2"
+            android:layout_width="258dp"
+            android:layout_height="119dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10px"
+            android:layout_weight="0.35"
+            android:background="@drawable/btn_pil2" />
+
+        <Button
+            android:id="@+id/btnPil3"
+            android:layout_width="258dp"
+            android:layout_height="119dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="5px"
+            android:layout_weight="0.35"
+            android:background="@drawable/btn_pil3" />
+
+    </LinearLayout>
+</LinearLayout>

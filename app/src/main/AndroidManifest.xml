@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.diet_in">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AnotherArtikel"></activity>
+        <activity android:name=".Alarm" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Catatan" />
+        <activity android:name=".ListMenu3" />
+        <activity android:name=".ListMenu2" />
+        <activity android:name=".AnotherActivity"
+            android:parentActivityName=".Info"/>
+        <activity android:name=".ButtonMenu" />
+        <activity android:name=".Info" />
+        <activity android:name=".ListMenu" />
+        <activity
+            android:name=".MenuForm"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

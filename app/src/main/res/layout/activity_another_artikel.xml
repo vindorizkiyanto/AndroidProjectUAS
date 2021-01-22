@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg2"
+    tools:context=".AnotherArtikel">
+
+    <ImageView
+        android:id="@+id/another_ArtikelView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title Text"
+        android:textColor="@color/blackColor"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@id/another_ArtikelView"/>
+
+    <TextView
+        android:id="@+id/deskripsitext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description Text"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/textJudul"/>
+
+</RelativeLayout>
